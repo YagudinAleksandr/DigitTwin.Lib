@@ -1,8 +1,5 @@
-﻿namespace DigitTwin.Lib.Contracts
+﻿namespace DigitTwin.Lib.Geo.Abstractions
 {
-    /// <summary>
-    /// Геообъект
-    /// </summary>
     public abstract class GeoObject
     {
         /// <summary>
@@ -13,6 +10,6 @@
         /// <summary>
         /// Тип объекта
         /// </summary>
-        public abstract GeoTypeEnum GeoType { get;}
+        public abstract GeoTypeEnum GeoType { get; }
     }
 }

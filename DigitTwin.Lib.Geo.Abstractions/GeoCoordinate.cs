@@ -1,7 +1,7 @@
-﻿namespace DigitTwin.Lib.Contracts
+﻿namespace DigitTwin.Lib.Geo.Abstractions
 {
     /// <summary>
-    /// Гео-координата
+    /// Координаты
     /// </summary>
     public class GeoCoordinate
     {
