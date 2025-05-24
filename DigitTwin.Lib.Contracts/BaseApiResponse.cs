@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 #nullable enable
 namespace DigitTwin.Lib.Contracts
@@ -7,6 +8,7 @@ namespace DigitTwin.Lib.Contracts
     /// Базовый ответ от API
     /// </summary>
     /// <typeparam name="TBody">Тип тела ответа</typeparam>
+    [Serializable]
     public class BaseApiResponse<TBody>
     {
         /// <summary>

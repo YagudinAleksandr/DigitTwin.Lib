@@ -1,8 +1,11 @@
-﻿namespace DigitTwin.Lib.Geo.Abstractions
+﻿using System;
+
+namespace DigitTwin.Lib.Geo.Abstractions
 {
     /// <summary>
     /// Гео точка
     /// </summary>
+    [Serializable]
     public class GeoCordinates
     {
         /// <summary>

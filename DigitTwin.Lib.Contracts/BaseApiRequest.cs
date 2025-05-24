@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Net.Http;
 
 #nullable enable
@@ -8,6 +9,7 @@ namespace DigitTwin.Lib.Contracts
     /// Базовый тип запроса к API
     /// </summary>
     /// <typeparam name="TBody">Тип тела ответа</typeparam>
+    [Serializable]
     public class BaseApiRequest<TBody> where TBody : class
     {
         /// <summary>
