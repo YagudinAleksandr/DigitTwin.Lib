@@ -1,4 +1,4 @@
-﻿namespace DigitTwin.Lib.Contracts
+﻿namespace DigitTwin.Lib.Geo.Abstractions
 {
     /// <summary>
     /// Типы геообъектов

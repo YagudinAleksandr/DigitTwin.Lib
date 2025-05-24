@@ -1,4 +1,6 @@
-﻿namespace DigitTwin.Lib.Contracts
+﻿using DigitTwin.Lib.Geo.Abstractions;
+
+namespace DigitTwin.Lib.Contracts
 {
     /// <summary>
     /// Стартовая позиция камеры
