@@ -1,8 +1,11 @@
-﻿namespace DigitTwin.Lib.Geo.Abstractions
+﻿using System;
+
+namespace DigitTwin.Lib.Geo.Abstractions
 {
     /// <summary>
     /// Стартовая точка
     /// </summary>
+    [Serializable]
     public class GeoObjectInitialPoint : GeoObject
     {
         public override GeoTypeEnum Type => GeoTypeEnum.INITIAL_POINT;

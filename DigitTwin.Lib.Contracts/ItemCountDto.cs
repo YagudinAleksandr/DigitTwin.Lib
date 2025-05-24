@@ -1,10 +1,13 @@
 ﻿#nullable enable
+using System;
+
 namespace DigitTwin.Lib.Contracts
 {
     /// <summary>
     /// Количественный вывод элементов
     /// </summary>
     /// <typeparam name="TItem">Тип элементов</typeparam>
+    [Serializable]
     public class ItemCountDto<TItem>
     {
         /// <summary>
