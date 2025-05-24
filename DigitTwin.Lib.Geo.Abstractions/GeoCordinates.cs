@@ -1,9 +1,9 @@
 ﻿namespace DigitTwin.Lib.Geo.Abstractions
 {
     /// <summary>
-    /// Координаты
+    /// Гео точка
     /// </summary>
-    public class GeoCoordinate
+    public class GeoCordinates
     {
         /// <summary>
         /// Долгота

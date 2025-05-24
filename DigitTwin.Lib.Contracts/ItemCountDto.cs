@@ -1,10 +1,11 @@
-﻿namespace DigitTwin.Lib.Contracts.DTO
+﻿#nullable enable
+namespace DigitTwin.Lib.Contracts
 {
     /// <summary>
     /// Количественный вывод элементов
     /// </summary>
-    /// <typeparam name="TItem">Тип данных</typeparam>
-    public class CountItemDto<TItem>
+    /// <typeparam name="TItem">Тип элементов</typeparam>
+    public class ItemCountDto<TItem>
     {
         /// <summary>
         /// Количество элементов
@@ -12,8 +13,8 @@
         public int Count { get; set; } = 0;
 
         /// <summary>
-        /// Элементы
+        /// Массив элементов
         /// </summary>
-        public TItem[]? Items { get; set; }
+        public TItem[] Items { get; set; } = default!;
     }
 }
