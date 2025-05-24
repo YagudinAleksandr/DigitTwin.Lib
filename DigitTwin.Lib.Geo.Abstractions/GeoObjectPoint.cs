@@ -1,10 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using System;
 
 namespace DigitTwin.Lib.Geo.Abstractions
 {
     /// <summary>
     /// Точка
     /// </summary>
+    [Serializable]
     public class GeoObjectPoint : GeoObject
     {
         public override GeoTypeEnum Type => GeoTypeEnum.POINT;

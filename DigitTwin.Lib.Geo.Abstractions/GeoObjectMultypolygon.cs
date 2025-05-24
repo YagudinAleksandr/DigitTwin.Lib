@@ -1,10 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace DigitTwin.Lib.Geo.Abstractions
 {
     /// <summary>
     /// Мультиполигон
     /// </summary>
+    [Serializable]
     internal class GeoObjectMultypolygon : GeoObject
     {
         public override GeoTypeEnum Type => GeoTypeEnum.MULTYPOLYGON;

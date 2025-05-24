@@ -1,10 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace DigitTwin.Lib.Geo.Abstractions
 {
     /// <summary>
     /// Линия
     /// </summary>
+    [Serializable]
     public class GeoObjectLine : GeoObject
     {
         public override GeoTypeEnum Type => GeoTypeEnum.LINE;

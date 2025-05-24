@@ -1,10 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace DigitTwin.Lib.Geo.Abstractions
 {
     /// <summary>
     /// Полигон
     /// </summary>
+    [Serializable]
     public class GeoObjectPolygon : GeoObject
     {
         public override GeoTypeEnum Type => GeoTypeEnum.POLYGON;
