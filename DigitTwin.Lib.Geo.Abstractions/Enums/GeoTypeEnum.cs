@@ -1,10 +1,15 @@
 ﻿namespace DigitTwin.Lib.Geo.Abstractions
 {
     /// <summary>
-    /// Типы геообъектов
+    /// Базовые типы объектов гео-объектов
     /// </summary>
     public enum GeoTypeEnum
     {
+        /// <summary>
+        /// Точка старта
+        /// </summary>
+        INITIAL_POINT,
+
         /// <summary>
         /// Точка
         /// </summary>
@@ -23,11 +28,6 @@
         /// <summary>
         /// Мультиполигон
         /// </summary>
-        MULTYPOLYGON,
-
-        /// <summary>
-        /// Стартовая позиция
-        /// </summary>
-        START_POSITION
+        MULTYPOLYGON
     }
 }

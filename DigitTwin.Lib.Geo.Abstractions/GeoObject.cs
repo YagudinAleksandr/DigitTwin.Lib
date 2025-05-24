@@ -1,15 +1,13 @@
 ﻿namespace DigitTwin.Lib.Geo.Abstractions
 {
+    /// <summary>
+    /// Базовый геообъект
+    /// </summary>
     public abstract class GeoObject
     {
         /// <summary>
-        /// ИД объекта
+        /// Тип геообъекта
         /// </summary>
-        public int? Id { get; set; }
-
-        /// <summary>
-        /// Тип объекта
-        /// </summary>
-        public abstract GeoTypeEnum GeoType { get; }
+        public abstract GeoTypeEnum Type { get; }
     }
 }
