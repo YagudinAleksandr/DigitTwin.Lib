@@ -36,5 +36,10 @@ namespace DigitTwin.Lib.Contracts
         /// Заголовки
         /// </summary>
         public Dictionary<string, string> Headers { get; set; } = new Dictionary<string, string>();
+
+        /// <summary>
+        /// Параметры запроса
+        /// </summary>
+        public Dictionary<string, string> RequestParams { get; set; } = new Dictionary<string, string>();
     }
 }
