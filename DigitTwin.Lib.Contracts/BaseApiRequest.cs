@@ -15,7 +15,7 @@ namespace DigitTwin.Lib.Contracts
         /// <summary>
         /// Метод запроса
         /// </summary>
-        HttpMethod Method { get; set; } = HttpMethod.Get;
+        public HttpMethod Method { get; set; } = HttpMethod.Get;
 
         /// <summary>
         /// URI
