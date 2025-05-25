@@ -1,6 +1,4 @@
-﻿using Newtonsoft.Json;
-
-namespace DigitTwin.Lib.Geo.Abstractions
+﻿namespace DigitTwin.Lib.Geo.Abstractions
 {
     /// <summary>
     /// Базовый геообъект
@@ -10,7 +8,6 @@ namespace DigitTwin.Lib.Geo.Abstractions
         /// <summary>
         /// Тип геообъекта
         /// </summary>
-        [JsonProperty("type")]
-        public abstract GeoTypeEnum Type { get; }
+        public virtual GeoTypeEnum Type { get; }
     }
 }
