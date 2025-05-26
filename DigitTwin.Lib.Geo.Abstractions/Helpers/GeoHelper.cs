@@ -23,16 +23,19 @@ namespace DigitTwin.Lib.Geo.Abstractions
         /// </summary>
         /// <param name="geoCordinates">Гео-координаты</param>
         /// <returns>
-        /// Вектор в мировых координатах
+        /// <list type="bullet">
+        /// <item>Координата X</item>
+        /// <item>Координата Y</item>
+        /// </list>
         /// </returns>
-        public static Vector2 LatLonToWorld(GeoCordinates geoCordinates)
+        public static (float coordX, float coordY) LatLonToWorld(GeoCordinates geoCordinates)
         {
             float x = (float)(geoCordinates.Longitude * ORIGIN_SHIFT / 180.0);
             float y = (float)(Math.Log(Math.Tan((90 + geoCordinates.Latitude) * Math.PI / 360.0f)) / Math.PI / 180.0f);
 
             y = (float)(y * ORIGIN_SHIFT / 180.0);
 
-            return new Vector2(x, y);
+            return (x, y);
         }
 
         /// <summary>
@@ -40,10 +43,10 @@ namespace DigitTwin.Lib.Geo.Abstractions
         /// </summary>
         /// <param name="worldPos">Вектор</param>
         /// <returns>Гео-координаты</returns>
-        public static GeoCordinates WorldToLatLon(Vector2 worldPos)
+        public static GeoCordinates WorldToLatLon(float coordX, float coordY)
         {
-            double lon = (worldPos.X / ORIGIN_SHIFT) * 180.0;
-            double lat = (worldPos.Y / ORIGIN_SHIFT) * 180.0;
+            double lon = (coordX / ORIGIN_SHIFT) * 180.0;
+            double lat = (coordY / ORIGIN_SHIFT) * 180.0;
 
             lat = 180.0 / Math.PI * (2f * Math.Atan(Math.Exp((float)lat * Math.PI / 180.0f)) - Math.PI / 2f);
 
