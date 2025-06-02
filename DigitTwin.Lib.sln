@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitTwin.Lib.Geo.Abstracti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitTwin.Lib.EventBroker", "DigitTwin.Lib.EventBroker\DigitTwin.Lib.EventBroker.csproj", "{ACB5BC8F-59E4-4D38-A26D-56B3E453EDA8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitTwin.Lib.Validator", "DigitTwin.Lib.Validator\DigitTwin.Lib.Validator.csproj", "{7393F240-2C53-474E-AB4D-E6715E44548B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{ACB5BC8F-59E4-4D38-A26D-56B3E453EDA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACB5BC8F-59E4-4D38-A26D-56B3E453EDA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACB5BC8F-59E4-4D38-A26D-56B3E453EDA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7393F240-2C53-474E-AB4D-E6715E44548B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7393F240-2C53-474E-AB4D-E6715E44548B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7393F240-2C53-474E-AB4D-E6715E44548B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7393F240-2C53-474E-AB4D-E6715E44548B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
