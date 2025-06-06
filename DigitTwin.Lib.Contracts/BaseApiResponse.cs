@@ -35,5 +35,10 @@ namespace DigitTwin.Lib.Contracts
         /// Ошибки
         /// </summary>
         public Dictionary<string, string> Errors { get; set; } = new Dictionary<string, string>();
+
+        /// <summary>
+        /// Заголовки
+        /// </summary>
+        public Dictionary<string, string> Headers { get; set; } = new Dictionary<string, string>();
     }
 }
