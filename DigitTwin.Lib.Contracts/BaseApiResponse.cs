@@ -11,34 +11,21 @@ namespace DigitTwin.Lib.Contracts
     [Serializable]
     public class BaseApiResponse<TBody> : IBaseApiResponse
     {
-        /// <summary>
-        /// Код обработки сервера
-        /// </summary>
         public int StatusCode { get; set; }
+
+        public string RedirectionUrl { get; set; } = string.Empty;
+
+        public int MaxRedirects { get; set; } = 3;
+
+        public Dictionary<string, string> Errors { get; set; } = new Dictionary<string, string>();
+
+        public Dictionary<string, string> Headers { get; set; } = new Dictionary<string, string>();
 
         /// <summary>
         /// Тело
         /// </summary>
         public TBody Body { get; set; } = default!;
 
-        /// <summary>
-        /// Перенаправление
-        /// </summary>
-        public string RedirectionUrl { get; set; } = string.Empty;
-
-        /// <summary>
-        /// Максимальное количество перенапрвлений
-        /// </summary>
-        public int MaxRedirects { get; set; } = 3;
-
-        /// <summary>
-        /// Ошибки
-        /// </summary>
-        public Dictionary<string, string> Errors { get; set; } = new Dictionary<string, string>();
-
-        /// <summary>
-        /// Заголовки
-        /// </summary>
-        public Dictionary<string, string> Headers { get; set; } = new Dictionary<string, string>();
+        
     }
 }
