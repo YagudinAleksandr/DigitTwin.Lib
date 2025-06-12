@@ -9,7 +9,7 @@ namespace DigitTwin.Lib.Contracts
     /// </summary>
     /// <typeparam name="TBody">Тип тела ответа</typeparam>
     [Serializable]
-    public class BaseApiResponse<TBody>
+    public class BaseApiResponse<TBody> : IBaseApiResponse
     {
         public int StatusCode { get; set; }
 
