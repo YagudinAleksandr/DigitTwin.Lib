@@ -17,7 +17,7 @@ namespace DigitTwin.Lib.Contracts
 
         public int MaxRedirects { get; set; } = 3;
 
-        public Dictionary<string, string> Errors { get; set; } = new Dictionary<string, string>();
+        public List<string> Errors { get; set; } = new List<string>();
 
         public Dictionary<string, string> Headers { get; set; } = new Dictionary<string, string>();
 
@@ -25,7 +25,5 @@ namespace DigitTwin.Lib.Contracts
         /// Тело
         /// </summary>
         public TBody Body { get; set; } = default!;
-
-        
     }
 }
