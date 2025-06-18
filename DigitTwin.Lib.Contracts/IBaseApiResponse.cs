@@ -25,7 +25,7 @@ namespace DigitTwin.Lib.Contracts
         /// <summary>
         /// Ошибки
         /// </summary>
-        Dictionary<string, string> Errors { get; set; }
+        List<string> Errors { get; set; }
 
         /// <summary>
         /// Заголовки
