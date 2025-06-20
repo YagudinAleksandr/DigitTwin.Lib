@@ -28,11 +28,6 @@ namespace DigitTwin.Lib.Contracts.User
         public string Email { get; set; } = null!;
 
         /// <summary>
-        /// Пароль
-        /// </summary>
-        public string Password { get; set; } = null!;
-
-        /// <summary>
         /// Статус активности
         /// </summary>
         public int Status { get; set; }
