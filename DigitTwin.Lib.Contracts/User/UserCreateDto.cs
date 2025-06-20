@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DigitTwin.Lib.Contracts.User
+namespace DigitTwin.Lib.Contracts
 {
     /// <summary>
     /// Создание пользователя
