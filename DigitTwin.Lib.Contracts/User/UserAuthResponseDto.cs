@@ -1,4 +1,4 @@
-﻿namespace DigitTwin.Lib.Contracts.User
+﻿namespace DigitTwin.Lib.Contracts
 {
     /// <summary>
     /// Ответ авторизации пользователя
