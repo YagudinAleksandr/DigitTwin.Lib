@@ -8,16 +8,11 @@
         /// <summary>
         /// Токен авторизации
         /// </summary>
-        public string AuthToken {  get; set; }
-
-        /// <summary>
-        /// Токен обновления авторизации
-        /// </summary>
-        public string RefreshToken { get; set; }
+        public TokenInfoDto AuthToken {  get; set; }
 
         /// <summary>
         /// Пользователь
         /// </summary>
-        UserDto User { get; set; }
+        public UserDto User { get; set; }
     }
 }
