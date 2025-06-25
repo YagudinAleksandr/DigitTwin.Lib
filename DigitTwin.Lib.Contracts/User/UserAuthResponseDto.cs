@@ -11,6 +11,11 @@
         public TokenInfoDto AuthToken {  get; set; }
 
         /// <summary>
+        /// Токен обновления
+        /// </summary>
+        public TokenInfoDto RefreshToken { get; set; }
+
+        /// <summary>
         /// Пользователь
         /// </summary>
         public UserDto User { get; set; }
