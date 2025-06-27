@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace DigitTwin.Contracts {
+namespace DigitTwin.Lib.Contracts {
 
   /// <summary>Holder for reflection information generated from userContracts.proto</summary>
   public static partial class UserContractsReflection {
@@ -33,24 +33,25 @@ namespace DigitTwin.Contracts {
             "GAMgASgJEhAKCHBhc3N3b3JkGAQgASgJEg4KBnN0YXR1cxgFIAEoBRI0Cg5v",
             "cmdhbml6YXRpb25JZBgGIAEoCzIcLmdvb2dsZS5wcm90b2J1Zi5TdHJpbmdW",
             "YWx1ZSI1ChJVc2VyQXV0aFJlcXVlc3REdG8SDQoFZW1haWwYASABKAkSEAoI",
-            "cGFzc3dvcmQYAiABKAkisQEKDFRva2VuSW5mb0R0bxIOCgZ1c2VySWQYASAB",
-            "KAkSDQoFZW1haWwYAiABKAkSDAoEdHlwZRgDIAEoBRIMCgRuYW1lGAQgASgJ",
-            "Eg4KBnN0YXR1cxgFIAEoBRI0Cg5vcmdhbml6YXRpb25JZBgGIAEoCzIcLmdv",
-            "b2dsZS5wcm90b2J1Zi5TdHJpbmdWYWx1ZRINCgV0b2tlbhgHIAEoCRIRCgll",
-            "eHBpcmVzQXQYCCABKAUivAEKE1VzZXJBdXRoUmVzcG9uc2VEdG8SOAoJYXV0",
-            "aFRva2VuGAEgASgLMiUuZGlnaXRUd2luLmxpYi5jb250cmFjdHMuVG9rZW5J",
-            "bmZvRHRvEjsKDHJlZnJlc2hUb2tlbhgCIAEoCzIlLmRpZ2l0VHdpbi5saWIu",
-            "Y29udHJhY3RzLlRva2VuSW5mb0R0bxIuCgR1c2VyGAMgASgLMiAuZGlnaXRU",
-            "d2luLmxpYi5jb250cmFjdHMuVXNlckR0b0IvChdjb20uZGlnaXRUd2luLmNv",
-            "bnRyYWN0c6oCE0RpZ2l0VHdpbi5Db250cmFjdHNiBnByb3RvMw=="));
+            "cGFzc3dvcmQYAiABKAkiyAEKDFRva2VuSW5mb0R0bxIOCgZ1c2VySWQYASAB",
+            "KAkSDQoFZW1haWwYAiABKAkSEAoIdXNlclR5cGUYAyABKAUSDAoEbmFtZRgE",
+            "IAEoCRIOCgZzdGF0dXMYBSABKAUSNAoOb3JnYW5pemF0aW9uSWQYBiABKAsy",
+            "HC5nb29nbGUucHJvdG9idWYuU3RyaW5nVmFsdWUSDQoFdG9rZW4YByABKAkS",
+            "EQoJZXhwaXJlc0F0GAggASgFEhEKCWNyZWF0ZWRBdBgJIAEoBSK8AQoTVXNl",
+            "ckF1dGhSZXNwb25zZUR0bxI4CglhdXRoVG9rZW4YASABKAsyJS5kaWdpdFR3",
+            "aW4ubGliLmNvbnRyYWN0cy5Ub2tlbkluZm9EdG8SOwoMcmVmcmVzaFRva2Vu",
+            "GAIgASgLMiUuZGlnaXRUd2luLmxpYi5jb250cmFjdHMuVG9rZW5JbmZvRHRv",
+            "Ei4KBHVzZXIYAyABKAsyIC5kaWdpdFR3aW4ubGliLmNvbnRyYWN0cy5Vc2Vy",
+            "RHRvQjcKG2NvbS5kaWdpdFR3aW4ubGliLmNvbnRyYWN0c6oCF0RpZ2l0VHdp",
+            "bi5MaWIuQ29udHJhY3RzYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::DigitTwin.Contracts.UserDto), global::DigitTwin.Contracts.UserDto.Parser, new[]{ "Id", "Email", "Type", "Name", "Status", "OrganizationId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::DigitTwin.Contracts.UserCreateDto), global::DigitTwin.Contracts.UserCreateDto.Parser, new[]{ "Email", "Type", "Name", "Password", "Status", "OrganizationId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::DigitTwin.Contracts.UserAuthRequestDto), global::DigitTwin.Contracts.UserAuthRequestDto.Parser, new[]{ "Email", "Password" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::DigitTwin.Contracts.TokenInfoDto), global::DigitTwin.Contracts.TokenInfoDto.Parser, new[]{ "UserId", "Email", "Type", "Name", "Status", "OrganizationId", "Token", "ExpiresAt" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::DigitTwin.Contracts.UserAuthResponseDto), global::DigitTwin.Contracts.UserAuthResponseDto.Parser, new[]{ "AuthToken", "RefreshToken", "User" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::DigitTwin.Lib.Contracts.UserDto), global::DigitTwin.Lib.Contracts.UserDto.Parser, new[]{ "Id", "Email", "Type", "Name", "Status", "OrganizationId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::DigitTwin.Lib.Contracts.UserCreateDto), global::DigitTwin.Lib.Contracts.UserCreateDto.Parser, new[]{ "Email", "Type", "Name", "Password", "Status", "OrganizationId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::DigitTwin.Lib.Contracts.UserAuthRequestDto), global::DigitTwin.Lib.Contracts.UserAuthRequestDto.Parser, new[]{ "Email", "Password" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::DigitTwin.Lib.Contracts.TokenInfoDto), global::DigitTwin.Lib.Contracts.TokenInfoDto.Parser, new[]{ "UserId", "Email", "UserType", "Name", "Status", "OrganizationId", "Token", "ExpiresAt", "CreatedAt" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::DigitTwin.Lib.Contracts.UserAuthResponseDto), global::DigitTwin.Lib.Contracts.UserAuthResponseDto.Parser, new[]{ "AuthToken", "RefreshToken", "User" }, null, null, null, null)
           }));
     }
     #endregion
@@ -75,7 +76,7 @@ namespace DigitTwin.Contracts {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DigitTwin.Contracts.UserContractsReflection.Descriptor.MessageTypes[0]; }
+      get { return global::DigitTwin.Lib.Contracts.UserContractsReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -487,7 +488,7 @@ namespace DigitTwin.Contracts {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DigitTwin.Contracts.UserContractsReflection.Descriptor.MessageTypes[1]; }
+      get { return global::DigitTwin.Lib.Contracts.UserContractsReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -899,7 +900,7 @@ namespace DigitTwin.Contracts {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DigitTwin.Contracts.UserContractsReflection.Descriptor.MessageTypes[2]; }
+      get { return global::DigitTwin.Lib.Contracts.UserContractsReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1143,7 +1144,7 @@ namespace DigitTwin.Contracts {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DigitTwin.Contracts.UserContractsReflection.Descriptor.MessageTypes[3]; }
+      get { return global::DigitTwin.Lib.Contracts.UserContractsReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1165,12 +1166,13 @@ namespace DigitTwin.Contracts {
     public TokenInfoDto(TokenInfoDto other) : this() {
       userId_ = other.userId_;
       email_ = other.email_;
-      type_ = other.type_;
+      userType_ = other.userType_;
       name_ = other.name_;
       status_ = other.status_;
       OrganizationId = other.OrganizationId;
       token_ = other.token_;
       expiresAt_ = other.expiresAt_;
+      createdAt_ = other.createdAt_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1210,18 +1212,18 @@ namespace DigitTwin.Contracts {
       }
     }
 
-    /// <summary>Field number for the "type" field.</summary>
-    public const int TypeFieldNumber = 3;
-    private int type_;
+    /// <summary>Field number for the "userType" field.</summary>
+    public const int UserTypeFieldNumber = 3;
+    private int userType_;
     /// <summary>
     /// Тип пользователя
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int Type {
-      get { return type_; }
+    public int UserType {
+      get { return userType_; }
       set {
-        type_ = value;
+        userType_ = value;
       }
     }
 
@@ -1302,6 +1304,21 @@ namespace DigitTwin.Contracts {
       }
     }
 
+    /// <summary>Field number for the "createdAt" field.</summary>
+    public const int CreatedAtFieldNumber = 9;
+    private int createdAt_;
+    /// <summary>
+    /// Дата создания токена
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CreatedAt {
+      get { return createdAt_; }
+      set {
+        createdAt_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -1319,12 +1336,13 @@ namespace DigitTwin.Contracts {
       }
       if (UserId != other.UserId) return false;
       if (Email != other.Email) return false;
-      if (Type != other.Type) return false;
+      if (UserType != other.UserType) return false;
       if (Name != other.Name) return false;
       if (Status != other.Status) return false;
       if (OrganizationId != other.OrganizationId) return false;
       if (Token != other.Token) return false;
       if (ExpiresAt != other.ExpiresAt) return false;
+      if (CreatedAt != other.CreatedAt) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1334,12 +1352,13 @@ namespace DigitTwin.Contracts {
       int hash = 1;
       if (UserId.Length != 0) hash ^= UserId.GetHashCode();
       if (Email.Length != 0) hash ^= Email.GetHashCode();
-      if (Type != 0) hash ^= Type.GetHashCode();
+      if (UserType != 0) hash ^= UserType.GetHashCode();
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (Status != 0) hash ^= Status.GetHashCode();
       if (organizationId_ != null) hash ^= OrganizationId.GetHashCode();
       if (Token.Length != 0) hash ^= Token.GetHashCode();
       if (ExpiresAt != 0) hash ^= ExpiresAt.GetHashCode();
+      if (CreatedAt != 0) hash ^= CreatedAt.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1366,9 +1385,9 @@ namespace DigitTwin.Contracts {
         output.WriteRawTag(18);
         output.WriteString(Email);
       }
-      if (Type != 0) {
+      if (UserType != 0) {
         output.WriteRawTag(24);
-        output.WriteInt32(Type);
+        output.WriteInt32(UserType);
       }
       if (Name.Length != 0) {
         output.WriteRawTag(34);
@@ -1389,6 +1408,10 @@ namespace DigitTwin.Contracts {
         output.WriteRawTag(64);
         output.WriteInt32(ExpiresAt);
       }
+      if (CreatedAt != 0) {
+        output.WriteRawTag(72);
+        output.WriteInt32(CreatedAt);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1407,9 +1430,9 @@ namespace DigitTwin.Contracts {
         output.WriteRawTag(18);
         output.WriteString(Email);
       }
-      if (Type != 0) {
+      if (UserType != 0) {
         output.WriteRawTag(24);
-        output.WriteInt32(Type);
+        output.WriteInt32(UserType);
       }
       if (Name.Length != 0) {
         output.WriteRawTag(34);
@@ -1430,6 +1453,10 @@ namespace DigitTwin.Contracts {
         output.WriteRawTag(64);
         output.WriteInt32(ExpiresAt);
       }
+      if (CreatedAt != 0) {
+        output.WriteRawTag(72);
+        output.WriteInt32(CreatedAt);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -1446,8 +1473,8 @@ namespace DigitTwin.Contracts {
       if (Email.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Email);
       }
-      if (Type != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Type);
+      if (UserType != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(UserType);
       }
       if (Name.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
@@ -1463,6 +1490,9 @@ namespace DigitTwin.Contracts {
       }
       if (ExpiresAt != 0) {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(ExpiresAt);
+      }
+      if (CreatedAt != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(CreatedAt);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1482,8 +1512,8 @@ namespace DigitTwin.Contracts {
       if (other.Email.Length != 0) {
         Email = other.Email;
       }
-      if (other.Type != 0) {
-        Type = other.Type;
+      if (other.UserType != 0) {
+        UserType = other.UserType;
       }
       if (other.Name.Length != 0) {
         Name = other.Name;
@@ -1501,6 +1531,9 @@ namespace DigitTwin.Contracts {
       }
       if (other.ExpiresAt != 0) {
         ExpiresAt = other.ExpiresAt;
+      }
+      if (other.CreatedAt != 0) {
+        CreatedAt = other.CreatedAt;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1530,7 +1563,7 @@ namespace DigitTwin.Contracts {
             break;
           }
           case 24: {
-            Type = input.ReadInt32();
+            UserType = input.ReadInt32();
             break;
           }
           case 34: {
@@ -1554,6 +1587,10 @@ namespace DigitTwin.Contracts {
           }
           case 64: {
             ExpiresAt = input.ReadInt32();
+            break;
+          }
+          case 72: {
+            CreatedAt = input.ReadInt32();
             break;
           }
         }
@@ -1584,7 +1621,7 @@ namespace DigitTwin.Contracts {
             break;
           }
           case 24: {
-            Type = input.ReadInt32();
+            UserType = input.ReadInt32();
             break;
           }
           case 34: {
@@ -1608,6 +1645,10 @@ namespace DigitTwin.Contracts {
           }
           case 64: {
             ExpiresAt = input.ReadInt32();
+            break;
+          }
+          case 72: {
+            CreatedAt = input.ReadInt32();
             break;
           }
         }
@@ -1635,7 +1676,7 @@ namespace DigitTwin.Contracts {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::DigitTwin.Contracts.UserContractsReflection.Descriptor.MessageTypes[4]; }
+      get { return global::DigitTwin.Lib.Contracts.UserContractsReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1669,13 +1710,13 @@ namespace DigitTwin.Contracts {
 
     /// <summary>Field number for the "authToken" field.</summary>
     public const int AuthTokenFieldNumber = 1;
-    private global::DigitTwin.Contracts.TokenInfoDto authToken_;
+    private global::DigitTwin.Lib.Contracts.TokenInfoDto authToken_;
     /// <summary>
     /// Токен авторизации
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::DigitTwin.Contracts.TokenInfoDto AuthToken {
+    public global::DigitTwin.Lib.Contracts.TokenInfoDto AuthToken {
       get { return authToken_; }
       set {
         authToken_ = value;
@@ -1684,13 +1725,13 @@ namespace DigitTwin.Contracts {
 
     /// <summary>Field number for the "refreshToken" field.</summary>
     public const int RefreshTokenFieldNumber = 2;
-    private global::DigitTwin.Contracts.TokenInfoDto refreshToken_;
+    private global::DigitTwin.Lib.Contracts.TokenInfoDto refreshToken_;
     /// <summary>
     /// Токен обновления
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::DigitTwin.Contracts.TokenInfoDto RefreshToken {
+    public global::DigitTwin.Lib.Contracts.TokenInfoDto RefreshToken {
       get { return refreshToken_; }
       set {
         refreshToken_ = value;
@@ -1699,13 +1740,13 @@ namespace DigitTwin.Contracts {
 
     /// <summary>Field number for the "user" field.</summary>
     public const int UserFieldNumber = 3;
-    private global::DigitTwin.Contracts.UserDto user_;
+    private global::DigitTwin.Lib.Contracts.UserDto user_;
     /// <summary>
     /// Информация о пользователе
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::DigitTwin.Contracts.UserDto User {
+    public global::DigitTwin.Lib.Contracts.UserDto User {
       get { return user_; }
       set {
         user_ = value;
@@ -1825,19 +1866,19 @@ namespace DigitTwin.Contracts {
       }
       if (other.authToken_ != null) {
         if (authToken_ == null) {
-          AuthToken = new global::DigitTwin.Contracts.TokenInfoDto();
+          AuthToken = new global::DigitTwin.Lib.Contracts.TokenInfoDto();
         }
         AuthToken.MergeFrom(other.AuthToken);
       }
       if (other.refreshToken_ != null) {
         if (refreshToken_ == null) {
-          RefreshToken = new global::DigitTwin.Contracts.TokenInfoDto();
+          RefreshToken = new global::DigitTwin.Lib.Contracts.TokenInfoDto();
         }
         RefreshToken.MergeFrom(other.RefreshToken);
       }
       if (other.user_ != null) {
         if (user_ == null) {
-          User = new global::DigitTwin.Contracts.UserDto();
+          User = new global::DigitTwin.Lib.Contracts.UserDto();
         }
         User.MergeFrom(other.User);
       }
@@ -1862,21 +1903,21 @@ namespace DigitTwin.Contracts {
             break;
           case 10: {
             if (authToken_ == null) {
-              AuthToken = new global::DigitTwin.Contracts.TokenInfoDto();
+              AuthToken = new global::DigitTwin.Lib.Contracts.TokenInfoDto();
             }
             input.ReadMessage(AuthToken);
             break;
           }
           case 18: {
             if (refreshToken_ == null) {
-              RefreshToken = new global::DigitTwin.Contracts.TokenInfoDto();
+              RefreshToken = new global::DigitTwin.Lib.Contracts.TokenInfoDto();
             }
             input.ReadMessage(RefreshToken);
             break;
           }
           case 26: {
             if (user_ == null) {
-              User = new global::DigitTwin.Contracts.UserDto();
+              User = new global::DigitTwin.Lib.Contracts.UserDto();
             }
             input.ReadMessage(User);
             break;
@@ -1902,21 +1943,21 @@ namespace DigitTwin.Contracts {
             break;
           case 10: {
             if (authToken_ == null) {
-              AuthToken = new global::DigitTwin.Contracts.TokenInfoDto();
+              AuthToken = new global::DigitTwin.Lib.Contracts.TokenInfoDto();
             }
             input.ReadMessage(AuthToken);
             break;
           }
           case 18: {
             if (refreshToken_ == null) {
-              RefreshToken = new global::DigitTwin.Contracts.TokenInfoDto();
+              RefreshToken = new global::DigitTwin.Lib.Contracts.TokenInfoDto();
             }
             input.ReadMessage(RefreshToken);
             break;
           }
           case 26: {
             if (user_ == null) {
-              User = new global::DigitTwin.Contracts.UserDto();
+              User = new global::DigitTwin.Lib.Contracts.UserDto();
             }
             input.ReadMessage(User);
             break;
