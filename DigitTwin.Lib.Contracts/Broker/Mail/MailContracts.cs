@@ -32,8 +32,9 @@ namespace DigitTwin.Lib.Contracts {
             "bnRNZXNzYWdlEg8KB2FkZHJlc3MYAiABKAkSDwoHc3ViamVjdBgDIAEoCRIM",
             "CgRib2R5GAQgASgJEhMKC2F0dGFjaG1lbnRzGAUgAygJEjQKBHR5cGUYBiAB",
             "KA4yJi5kaWdpdHR3aW4ubGliLmNvbnRyYWN0cy5FbWFpbFR5cGVFbnVtKhwK",
-            "DUVtYWlsVHlwZUVudW0SCwoHREVGQVVMVBAAQjMKF2RpZ2l0dHdpbi5saWIu",
-            "Y29udHJhY3RzqgIXRGlnaXRUd2luLkxpYi5Db250cmFjdHNiBnByb3RvMw=="));
+            "DUVtYWlsVHlwZUVudW0SCwoHREVGQVVMVBAAQjcKG2NvbS5kaWdpdFR3aW4u",
+            "bGliLmNvbnRyYWN0c6oCF0RpZ2l0VHdpbi5MaWIuQ29udHJhY3RzYgZwcm90",
+            "bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::DigitTwin.Lib.Contracts.EmailTypeEnum), }, null, new pbr::GeneratedClrTypeInfo[] {

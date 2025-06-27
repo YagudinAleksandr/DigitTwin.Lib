@@ -34,8 +34,8 @@ namespace DigitTwin.Lib.Contracts {
             "GAMgASgJEgsKA2lubhgEIAEoCRILCgNrcHAYBSABKAkSDAoEb2dybhgGIAEo",
             "CRITCgtmYWN0QWRkcmVzcxgHIAEoCRIPCgdhZGRyZXNzGAggASgJEg8KB2Fj",
             "Y291bnQYCSABKAkSHwoXY29ycmVzcG9uZGVudGlhbEFjY291bnQYCiABKAlC",
-            "TAoXZGlnaXR0d2luLmxpYi5jb250cmFjdHNaF2RpZ2l0dHdpbi9saWIvY29u",
-            "dHJhY3RzqgIXRGlnaXRUd2luLkxpYi5Db250cmFjdHNiBnByb3RvMw=="));
+            "NwobY29tLmRpZ2l0VHdpbi5saWIuY29udHJhY3RzqgIXRGlnaXRUd2luLkxp",
+            "Yi5Db250cmFjdHNiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
